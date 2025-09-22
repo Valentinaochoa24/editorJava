@@ -1,8 +1,19 @@
 import java.util.Scanner;
 
+/**
+ * Clase Editor
+ * Simula un editor de texto sencillo con funciones de:
+ * - Escribir texto
+ * - Deshacer (Undo)
+ * - Rehacer (Redo)
+ * - Mostrar texto actual
+ */
+
 public class Editor {
     public static void main(String[] args) {
+        // Pila para las acciones realizadas
         MyStack<String> acciones = new MyStack<>();
+        // Pila para las acciones deshechas
         MyStack<String> deshechas = new MyStack<>();
         Scanner sc = new Scanner(System.in);
 
