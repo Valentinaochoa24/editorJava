@@ -31,3 +31,7 @@ El proyecto es parte de la actividad EA2 para reforzar el concepto de **estructu
    git clone https://github.com/tu-usuario/editor-undo-redo-java.git
    cd editorJava
 
+
+Captura de ejecución:
+<img width="1097" height="904" alt="image" src="https://github.com/user-attachments/assets/aaf19996-b0f6-4490-8b25-af432c351a14" />
+
